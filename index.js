@@ -160,7 +160,8 @@ module.exports = function(options) {
         ctx.set('Access-Control-Allow-Headers', allowHeaders);
       }
 
-      ctx.status = 204;
+      ctx.status = 200;
+      ctx.body = "";
     }
   };
 };
